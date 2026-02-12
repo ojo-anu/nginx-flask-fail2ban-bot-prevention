@@ -1,0 +1,7 @@
+[nginx-admin]
+enabled = true
+filter = bot-detection
+logpath = /var/log/nginx/access.log
+maxretry = 3
+findtime = 60
+bantime = 3600
